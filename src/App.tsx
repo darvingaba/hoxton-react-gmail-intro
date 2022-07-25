@@ -1,13 +1,12 @@
 import "./App.css";
+import "./css components/header.css";
+import "./css components/leftMenu.css";
+import "./css components/emailComponents.css";
 
-import flaticonWelcomeImage from "./assets/images/flaticon-welcome-image.png";
-import backArrow from "./assets/icons/back-arrow.png";
-import downloadButton from "./assets/icons/download-button.png";
-import rateStarButton from "./assets/icons/rate-star-button.png";
-import rubbishButton from "./assets/icons/rubbish-bin-delete-button.png";
 import Header from "./Header";
 import LeftMenu from "./Left-menu";
 import EmailView from "./EmailView";
+
 function App(): JSX.Element {
   return (
     <div className="app">
